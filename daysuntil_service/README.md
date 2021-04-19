@@ -1,0 +1,1 @@
+Create a service and write a method which gets a date as a parameter and returns a value, which is then used to display the correct string in the block.

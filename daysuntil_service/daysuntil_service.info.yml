@@ -1,0 +1,4 @@
+name: Days until event is happening Service
+type: module
+description: A service module that calculates number of days until event is happening.
+core_version_requirement: 9.x
