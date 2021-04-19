@@ -10,7 +10,7 @@ use \DateTime;
  */
 class DaysuntilService {
 
-  public function daysUnitlHappening($eventDate) {
+  public function daysUntilHappening($eventDate) {
     $eventDate = new DateTime($eventDate);
     $currentDate = new DateTime();
     $days_until = ($eventDate)->diff($currentDate)->days;

@@ -40,7 +40,7 @@ class DaysFormatter extends BlockBase {
    */
   public function display($event_date){
     $format_service = \Drupal::service('daysuntil_service.daysuntil');
-    $days = $format_service->daysUnitlHappening($event_date);
+    $days = $format_service->daysUntilHappening($event_date);
     if ($days == 0) {
       return "This event is happening today.";
     }
